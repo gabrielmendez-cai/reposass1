@@ -1,0 +1,213 @@
+/* index estilos*/
+body{
+    background:linear-gradient( #af6759,#fffdfd);;
+    }
+    .navbar-propia{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        padding-right: 4rem;
+        align-items: center;
+        font-family: 'Bitter', serif; ;
+        
+    }
+    
+    #btnRojo{
+        background-color: red;
+        border-radius: 10rem;
+        padding-right: 1px;
+        display: flex;
+        align-items: center;
+    }
+    .row-propia img{
+        transform: translate(0px,0px);
+    }
+    .row-propia img:hover{
+    transform: translate(250px,0px);
+    transition: 1s;
+    position: relative;
+    z-index: 1;
+    
+    }
+    .row-propia iframe{
+        transform: translate(0px,0px);
+    }
+    .row-propia iframe:hover{
+        transform: translate(-250px,0px);
+        transition: 1s;
+    }
+    
+    
+    .animate__backInLeft{
+        animation-duration: 3s;
+    }
+    .animate__flash{
+        animation-iteration-count: infinite;
+    }
+    .titulo-propio{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        color:#636059;
+        font-family: 'Bitter', serif;
+    }
+    .p-propio-index{
+        color:#636059;
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Bitter', serif;
+    }
+    .main-propio-index{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .footer-propio{
+        background-color:#636059;}
+    
+        /*medias Q index*/
+        @media screen and (max-width:768px){
+        .row-propia{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .navbar-propia{
+            padding-right: 0px;
+        }
+        }
+        @media screen and (max-width:500px){
+            .p-propio-index{
+                font-size: 1.2rem;
+            }
+            
+            .navbar-propia{
+                padding-right: 0;
+                font-size: 14px;
+            }
+        .fotoIn{
+            width: 350px;
+            height: 350px;
+        }
+        .iframe-propia{
+            width: 350px;
+            height: 350px;
+        }
+        .foot-p{
+            font-size: 0.7rem;
+        }
+        .row-propia img{
+            transform: translate(0px,0px);
+        }
+        .row-propia img:hover{
+        transform: translate(none);
+        transition: 1s;
+        position: relative;
+        z-index: 1;
+        
+        }
+        .row-propia iframe{
+            transform: translate(0px,0px);
+        }
+        .row-propia iframe:hover{
+            transform: translate(none);
+            transition: 1s;
+        }
+        
+        }
+        
+        /* sobre mi */
+    
+        .m-propio-s{
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            color:#636059;
+            text-transform: uppercase;
+            align-items: center;
+            font-family: 'Bitter', serif;
+    
+        }
+        .animate__flip{
+            animation-delay: 2s;
+        }
+    
+    .titulo-s{
+        color: #636059;
+        text-align: center;
+        font-family: 'Bitter', serif;
+        font-size: 2.8rem;
+        padding-bottom: 2rem;
+        text-transform: uppercase;
+    }
+    .sobre-prop p{
+        font-size: 1.5rem;
+        font-family: 'Bitter', serif;   
+        text-transform: uppercase;
+        color: #636059;
+       
+    }
+    
+    
+    /*medias Q sobre mi*/
+    @media screen and (max-width:768px){
+    .navbar-propia{
+        text-align: center;
+    }
+    #btnRojo{
+    display: inline-block;
+    }
+    
+    .m-propio-s{
+        flex-direction: column;
+        text-align: center;
+    }
+    .m-propio-s p{
+        font-size: 1.3rem;
+        padding-bottom: 100px;
+    }
+    .foto-sobrem{
+        padding-bottom: 20px;
+    }
+    .titulo-s{
+        font-size: 2.3rem;
+        padding-bottom: 55px;
+        padding-top: 20px;
+    }
+    }@media screen and (max-width:500px){
+        .foto-sobrem{
+            width: 450px;
+            height: 450px;
+        }
+        .m-propio-s p{
+    padding-bottom: 30px;
+    }
+    .titulo-s{
+        font-size: 2rem;
+    }
+    }
+    
+    /* make up & hair*/
+    .carousel-propio{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    /*contacto */
+    .textarea-propio{
+        padding-bottom: 10rem   ;
+    }
+    
+    .card-propio{
+        width: 40rem;
+    }
+    
+    .card-2p{
+        padding-bottom: 4rem;
+    }
