@@ -1,0 +1,41 @@
+/* index estilos*/
+.navbar-propia{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-right: 4rem;
+    align-items: center;
+    font-family: 'Bitter', serif; ;   
+}
+#btnRojo{
+    background-color: red;
+    border-radius: 10rem;
+    padding-right: 1px;
+    display: flex;
+    align-items: center;
+}
+.row-propia{
+      img{
+        transform: translate(0px,0px);
+        &:hover{
+            transform: translate(250px,0px);
+            transition: 1s;
+            position: relative;
+            z-index: 1;
+    
+        }
+    }iframe{
+        transform: translate(0px,0px);
+        &:hover{
+            transform: translate(-250px,0px);
+            transition: 1s;
+        }
+    }
+}
+.animate__backInLeft{
+    animation-duration: 3s;
+}
+.animate__flash{
+    animation-iteration-count: infinite;}
+
+   

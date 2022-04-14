@@ -1,0 +1,71 @@
+  /*medias Q index*/
+  @media screen and (max-width:768px) {
+      .row-propia {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      .navbar-propia{
+       
+        padding-right: 0px;
+        text-align: center; 
+    }
+  }
+  #btnRojo{
+      display: inline-block;
+  }
+
+  @media screen and (max-width:500px) {
+      .p-propio-index {
+          font-size: 1.2rem;
+      }
+  
+
+  .navbar-propia {
+      padding-right: 0;
+      font-size: 14px;
+  }
+
+  .fotoIn {
+      width: 350px;
+      height: 350px;
+  }
+
+  .iframe-propia {
+      width: 350px;
+      height: 350px;
+  }
+
+  .foot-p {
+      font-size: 0.7rem;
+  }
+}
+  
+/*medias Q sobre mi*/
+@media screen and (max-width:768px){
+    .navbar-propia{
+        text-align: center;
+    }
+    #btnRojo{
+    display: inline-block;
+    }
+    
+    .m-propio-s{
+        flex-direction: column;
+        text-align: center;
+        p{
+            font-size: 1.3rem;
+            padding-bottom: 100px;
+        }
+        
+    }
+    .foto-sobrem{
+        padding-bottom: 20px;
+    }
+    .titulo-s{
+        font-size: 2.3rem;
+        padding-bottom: 55px;
+        padding-top: 20px;
+    }
+
+}
