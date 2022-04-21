@@ -1,0 +1,9 @@
+@mixin flexbox1($flex, $dir, $space-e){
+    display: $flex;
+    flex-direction: $dir;
+    justify-content: $space-e;
+}
+.main_cards{
+    @include flexbox1(flex,row ,space-evenly )
+
+}

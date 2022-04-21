@@ -5,7 +5,7 @@
     justify-content: center;
     padding-right: 4rem;
     align-items: center;
-    font-family: 'Bitter', serif; ;   
+    font-family: 'Bitter', serif;   
 }
 #btnRojo{
     background-color: red;
@@ -14,24 +14,7 @@
     display: flex;
     align-items: center;
 }
-.row-propia{
-      img{
-        transform: translate(0px,0px);
-        &:hover{
-            transform: translate(250px,0px);
-            transition: 1s;
-            position: relative;
-            z-index: 1;
-    
-        }
-    }iframe{
-        transform: translate(0px,0px);
-        &:hover{
-            transform: translate(-250px,0px);
-            transition: 1s;
-        }
-    }
-}
+
 .animate__backInLeft{
     animation-duration: 3s;
 }
@@ -39,3 +22,9 @@
     animation-iteration-count: infinite;}
 
    
+    .breadcrumb--propio{
+        background-color:white ;
+        margin-bottom: 0;
+        a{color: black;
+    }
+}

@@ -1,0 +1,41 @@
+
+
+.card--propia{
+    h5{
+        font-size: 1.2rem;
+        font-family: 'Bitter', serif; 
+        text-align: center;
+        text-transform: uppercase;
+    }
+    p{
+        font-family: 'Bitter', serif; 
+        text-align: center;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* mapa */
+$btncards:(
+    novias:#76d7c4,
+    automaquillaje:#c39bd3,
+    playlist:#82e0aa
+);
+
+@each $boton, $color in $btncards{
+.btn--#{$boton}{
+    background-color: $color;
+}
+}
+
+/*map get*/
+.estilos--1{
+color: map-get($estilos-1, color );
+font-size: map-get($estilos-1 , ttitulos );
+font-family: map-get($estilos-1 , fuente );
+text-align: map-get($estilos-1 , centro );
+text-transform: map-get($estilos-1 , tfuente );
+
+}

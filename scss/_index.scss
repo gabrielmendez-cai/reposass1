@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    color:#636059;
+    color:$colorletras;
     font-family: 'Bitter', serif;
 }
 .p-propio-index{
-    color:#636059;
+    color:$colorletras;
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -17,4 +17,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.row-propia{
+    img{
+      transform: translate(0px,0px);
+      &:hover{
+          transform: translate(250px,0px);
+          transition: 1s;
+          position: relative;
+          z-index: 1;
+  
+      }
+  }iframe{
+      transform: translate(0px,0px);
+      &:hover{
+          transform: translate(-250px,0px);
+          transition: 1s;
+      }
+  }
 }

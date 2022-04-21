@@ -1,2 +1,32 @@
 .footer-propio{
-    background-color:#636059;}
+    background-color:#636059;
+
+    .mapa_footer{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                color: beige;
+            }
+          
+        
+        }
+        li{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-left: 2rem;
+           
+        }
+        .li_uno{
+            padding-left: 2rem;
+        }
+        .li_dos{
+            padding-right: 1rem;
+        }
+    }}

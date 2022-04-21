@@ -5,6 +5,21 @@
           flex-direction: column;
           justify-content: center;
       }
+      .row-propia{
+        img{
+          transform: translate(0);
+          &:hover{
+              transform: translate(0);
+              
+      
+          }
+      }iframe{
+          transform: translate(0);
+          &:hover{
+              transform: translate(0);
+          }
+      }
+    }
       .navbar-propia{
        
         padding-right: 0px;
@@ -14,6 +29,7 @@
   #btnRojo{
       display: inline-block;
   }
+
 
   @media screen and (max-width:500px) {
       .p-propio-index {
@@ -25,6 +41,24 @@
       padding-right: 0;
       font-size: 14px;
   }
+  .breadcrumb--propio{
+      font-size: 0.8rem;
+  }
+  .row-propia{
+    img{
+      transform: translate(0);
+      &:hover{
+          transform: translate(0);
+          
+  
+      }
+  }iframe{
+      transform: translate(0);
+      &:hover{
+          transform: translate(0);
+      }
+  }
+}
 
   .fotoIn {
       width: 350px;
@@ -38,6 +72,18 @@
 
   .foot-p {
       font-size: 0.7rem;
+  }
+  .mapa_footer{
+      a{
+          font-size: 0.8rem;
+      }
+      .li_uno{
+          padding-left: 0;
+          padding-right: 1rem;
+      }
+      .li_dos{
+          padding-left: 0rem;
+      }
   }
 }
   
