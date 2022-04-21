@@ -261,3 +261,21 @@ body {
     font-size: 2.3rem;
     padding-bottom: 55px;
     padding-top: 20px; } }
+
+/* news*/
+@media screen and (max-width: 768px) {
+  .main_cards {
+    margin-bottom: 1rem; }
+  .img-propia {
+    padding-bottom: 1.8rem; } }
+
+@media screen and (max-width: 500px) {
+  .img-propia {
+    padding-bottom: 6.5rem; }
+  .main_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .card--propia {
+    margin-bottom: 1rem; } }
