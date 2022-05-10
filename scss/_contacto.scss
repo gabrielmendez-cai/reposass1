@@ -5,11 +5,29 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 1rem;
+    .card-1-cont{
+        width: 18rem;
+        background-color: #ebd9d6;
+        color: #636059;
+        text-align: center;
+    }
+    .card-2-cont{
+        width:18rem;
+        background-color:#ebd9d6 ;
+        color: #636059;
+        text-align: center;
+    }
+    .card-titu{
+        padding-bottom: 3px;
+    }
+    
     img{
         padding-bottom: 2px;
     }
-   
+
 }
+
+
 .caja-contacto{
     font-size: 1.5rem;
     font-family:'Bitter' ;
@@ -24,17 +42,21 @@
 /* extend*/
 .btn-propio{
     border: 1px solid;
-    background-color: aquamarine;
+    background-color:#636059;
     display: flex;
     justify-content: center;
     &:hover{
-        background-color: darkcyan;
+        background-color:#BFB6B4;
     }
 }
 .btn-propio-cc2{
-    @extend .btn-propio;
-    color:gray;
-    background-color: crimson;
+    border: 1px solid;
+    background-color:#636059;
+    display: flex;
+    justify-content: center;
+    &:hover{
+        background-color:#BFB6B4;
+    }
 }
 
  .main-cont{
